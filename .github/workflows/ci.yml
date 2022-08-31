@@ -4,7 +4,6 @@ on: push
 
 jobs:
   lint: 
-  # first job -> lint
     name: lint
     runs-on: ubuntu-latest
 
@@ -24,7 +23,6 @@ jobs:
           VALIDATE_PYTHON_FLAKE8: true
 
   test: 
-  # secound job -> unittest
     name: unittest
     runs-on: ubuntu-latest
 
